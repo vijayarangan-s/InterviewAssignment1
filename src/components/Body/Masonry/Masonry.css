@@ -1,0 +1,31 @@
+.grid {
+    width: 750px;
+    display: grid;
+    margin: 0 auto;
+    /* align-items: center; */
+    justify-items: center;
+    gap: 100px;
+    grid-template-columns: 150px 250px 100px;
+    row-gap: 11px;
+  }
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 786px) {
+    .grid {
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        gap: 0px;
+    }
+    
+}    

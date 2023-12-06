@@ -1,0 +1,22 @@
+li.p-galleria-indicator button{
+    border-radius: 25px;
+}
+
+li.p-galleria-indicator.p-highlight button {
+    background: darkgray
+}
+
+@media screen and (max-width: 786px) {
+    .carosel-container {
+        position: relative;
+        left: -30px;
+    }
+
+    .carosel-container .p-galleria.p-component .p-galleria-item > img{
+        height: 400px;
+        width: 500px !important;
+        display: block;
+        position: relative;
+        left: 25px;
+    }
+}

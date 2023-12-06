@@ -1,0 +1,37 @@
+.whatnew-container{
+    position: relative;
+    margin-top: 5px;
+    display: flex;
+    width: 1240px;
+    margin: 0 auto; 
+    overflow: auto;
+    padding: 30px 0px 0 0; 
+}
+
+.card-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e6f3f3;
+    padding: 11px;
+    margin: 0px 6px;
+    border-radius: 15px
+}
+
+.card-view img {
+    width: 200px;
+    height: 300px;
+}
+
+
+
+@media screen and (max-width: 786px) {
+    .whatnew-container {
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+
+
+

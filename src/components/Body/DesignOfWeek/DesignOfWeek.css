@@ -1,0 +1,30 @@
+.image-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dc-title {
+  position: relative;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.design-of-week-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 786px) {
+  .image-button {
+    width: 85%;
+    position: relative;
+    left: 0;
+  }
+}
